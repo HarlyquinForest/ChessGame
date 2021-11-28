@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="junit-jupiter-5.7.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Documents/Java Liberary/junit-jupiter-5.7.0.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/Java Liberary/junit-jupiter-api-5.7.0.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/Java Liberary/junit-jupiter-engine-5.7.0.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/Java Liberary/junit-jupiter-params-5.7.0.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/Java Liberary/junit-platform-commons-1.7.0.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/Java Liberary/junit-platform-engine-1.7.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
