@@ -14,17 +14,13 @@ import javax.swing.border.EmptyBorder;
  * @author aminyousefnejad
  */
 public class MainLayout{
-    Board board ;
     JFrame window;
     JLabel sideTurnLbl;
     Game game ;
     public MainLayout() {
         game = new Game();
-        board = new Board(game);
         window = new JFrame("Simple Chess");
-        sideTurnLbl = new JLabel();
 
-        turnLbl(game.getTurnText());
         JPanel centerPanel = new JPanel();
         JPanel topPanel = new JPanel();
         JPanel botPanel = new JPanel();
@@ -35,7 +31,7 @@ public class MainLayout{
 
 
         centerPanel.setLayout(chessBoardLayout);
-        centerPanel.add(board);
+        centerPanel.add(game);
 
         topPanel.setBorder(new EmptyBorder(10,10,10,10));
         topPanel.setLayout(toolsLayout);
@@ -44,7 +40,6 @@ public class MainLayout{
         topPanel.add(buttons());
 
         botPanel.setLayout(new FlowLayout());
-        botPanel.add(sideTurnLbl);
 
         window.setLayout(mainLayout);
         window.add(centerPanel , BorderLayout.CENTER);
